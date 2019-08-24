@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+    body .container {
+        max-width: 100%;
+    }
+}
+
+header, footer {
+    background-color: #563d7c;
+    color: #fff;
+}
+.login-logo {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    position: absolute;
+    top: -5%;
+    left: 38%;
+}

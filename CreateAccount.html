@@ -1,0 +1,102 @@
+<!-- HTML 5 -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>complaint Managment</title>
+        <!-- Include the Bootstrap library. -->
+        <link rel="stylesheet" href="./libs/css/bootstrap.min.css">
+        <!-- Include the custom Styles. -->
+        <link rel="stylesheet" href="./styles/global/global.css">
+    </head>
+    <body>
+        <div class="container-fluid px-0">
+            <!-- Header Starts here. -->
+            <header class="text-center py-3 border">
+                    <B>Complaint Managment</B>
+            </header>
+            <!-- Container of the page starts here. -->
+            <div class="container">
+                <section class="main-content py-2">
+                    <div class="row">
+                        <div class="col-md-10 col-lg-8 mx-auto my-0 border rounded">
+                            <!-- Form to submit the complaint starts here. -->
+                            <form method="POST" action="/bin/services/complaint/CreateAccount" class="py-2">
+                                <h4 class="text-center py-4">Create Account</h4>
+                                <div class="row form-row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="inputFirstName">First Name</label>
+                                            <input type="firstName" class="form-control" id="inputFirstName" placeholder="First Name">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="inputMiddleName">Middle Name</label>
+                                            <input type="middleName" class="form-control" id="inputMiddleName" placeholder="Middle Name">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="inputLastName">Last Name</label>
+                                            <input type="lastName" class="form-control" id="inputLastName" placeholder="Last Name">
+                                        </div>
+
+                                        <fieldset class="form-group">
+                                            <legend class="col-form-label col-sm-2 pt-0 pl-0">Gender</legend>
+                                            <div class="row mx-0">
+                                                <div class="form-check pr-3">
+                                                    <input class="form-check-input" type="radio" name="gender" id="gridRadios1" value="male">
+                                                    <label class="form-check-label" for="gridRadios1">
+                                                    Male
+                                                    </label>
+                                                </div>
+                                                <div class="form-check pr-3">
+                                                    <input class="form-check-input" type="radio" name="gender" id="gridRadios2" value="female">
+                                                    <label class="form-check-label" for="gridRadios2">
+                                                    Female
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </fieldset>
+
+                                    </div>
+                                    <div class="col-md-6">
+                                        
+                                        <div class="form-group">
+                                            <label for="emailID">Email-ID</label>
+                                            <input type="email" class="form-control" id="emailID" placeholder="name@example.com">
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label for="primaryContact">Contact Number</label>
+                                            <input type="text" class="form-control" id="primaryContact" placeholder="Enter Contact Number">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="inputAddress1">Address 1</label>
+                                            <input type="text" class="form-control" id="inputAddress1" placeholder="Enter Address">
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label for="inputAddress2">Address 2</label>
+                                            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row py-3">
+                                    <div class="col-lg-6 col-md-6 mx-auto">
+                                        
+                                    <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                                    
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <footer class="text-center py-3 border">
+                Footer here.
+            </footer>
+        </div>
+    </body>
+<html>

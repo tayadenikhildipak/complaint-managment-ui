@@ -1,0 +1,63 @@
+<!-- HTML 5 -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Complaint Managment</title>
+        <!-- Include the Bootstrap library. -->
+        <link rel="stylesheet" href="./libs/css/bootstrap.min.css">
+        <!-- Include the custom Styles. -->
+        <link rel="stylesheet" href="./styles/global/global.css">
+    </head>
+    <body>
+        <div class="container-fluid px-0 ">
+            <!-- Header Starts here. -->
+            <header class="text-center py-3 border">
+                <B>Complaint Managment</B>
+            </header>
+            <!-- Container of the page starts here. -->
+            <div class="container">
+              <section class="main-content py-2">
+                <div class="row">
+                  <div class="col-lg-8 col-md-8 mx-auto">
+                    <form class="bg-light border rounded">
+                      <div class="form-group mb-0 pt-4 pb-1">
+                        <h4 class="text-center ">Complaint Box</h4>
+                      </div>
+                      <div class="px-3 py-3">
+                          <div class="form-group text-left py-2">
+                              <label>Select Colony ↴</label>
+                              <select class="form-control py-2 px-3">
+                                  <option>Default select</option>
+                                  <option>Gurudatta Housing Society</option>
+                                  <option>Abhang Colony</option>
+                                  <option>Sant Tukaram Colony</option>
+                                  <option>Jay Hind Colony</option>
+                                  <option>Rambag Colony</option>
+                                </select>
+                          </div>
+                        <div class="form-group">
+                          <label>Enter Complaint ↴</label>
+                          <textarea class="form-control text-center" id="exampleFormControlTextarea1" rows="3" placeholder="Enter Complaint"></textarea>
+                        </div>
+
+                        <div class="form-group py-3 text-center">
+                          <div class="custom-file py-3">
+                            <input type="file" class="custom-file-input" id="customFile" multiple>
+                            <label class="custom-file-label" for="customFile">Choose file</label>
+                          </div>
+                        <div class="form-group text-center py-3">
+                          <button type="submit" class="btn btn-primary w-50">Submit</button>
+                        </div>
+                        </div>
+                      </div>  
+                    </form>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <footer class="text-center py-3 border">
+                Footer here.
+            </footer>
+        </div>
+    </body>
+<html>
